@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="21" result="Passed" total="21" passed="21" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.3569765">
+  <test-suite type="TestSuite" id="1026" name="GDM_Final" fullname="GDM_Final" runstate="Runnable" testcasecount="21" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.356977" total="21" passed="21" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1024" name="Workspace.dll" fullname="C:/Users/MTA-216/Documents/1036_FinalExam/GDM_Final/Library/ScriptAssemblies/Workspace.dll" runstate="Runnable" testcasecount="21" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.346599" total="21" passed="21" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="23908" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1025" name="Assignment" fullname="Assignment" runstate="Runnable" testcasecount="21" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.342806" total="21" passed="21" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestFixture" id="1002" name="Assignment_Testcase" fullname="Assignment.Assignment_Testcase" classname="Assignment.Assignment_Testcase" runstate="Runnable" testcasecount="21" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.338278" total="21" passed="21" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-case id="1005" name="Test_AS01_CountVowels_AllVowels" fullname="Assignment.Assignment_Testcase.Test_AS01_CountVowels_AllVowels" methodname="Test_AS01_CountVowels_AllVowels" classname="Assignment.Assignment_Testcase" runstate="Runnable" seed="698205893" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.156701" asserts="0">
+            <properties>
+              <property name="Category" value="Midterm" />
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+            <output><![CDATA[5
+]]></output>
+          </test-case>
+          <test-case id="1008" name="Test_AS01_CountVowels_DuplicateVowels" fullname="Assignment.Assignment_Testcase.Test_AS01_CountVowels_DuplicateVowels" methodname="Test_AS01_CountVowels_DuplicateVowels" classname="Assignment.Assignment_Testcase" runstate="Runnable" seed="1664498299" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.012649" asserts="0">
+            <properties>
+              <property name="Category" value="Midterm" />
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+            <output><![CDATA[5
+]]></output>
+          </test-case>
+          <test-case id="1003" name="Test_AS01_CountVowels_EmptyList" fullname="Assignment.Assignment_Testcase.Test_AS01_CountVowels_EmptyList" methodname="Test_AS01_CountVowels_EmptyList" classname="Assignment.Assignment_Testcase" runstate="Runnable" seed="914853579" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.012249" asserts="0">
+            <properties>
+              <property name="Category" value="Midterm" />
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+            <output><![CDATA[0
+]]></output>
+          </test-case>
+          <test-case id="1006" name="Test_AS01_CountVowels_MixedWithConsonants" fullname="Assignment.Assignment_Testcase.Test_AS01_CountVowels_MixedWithConsonants" methodname="Test_AS01_CountVowels_MixedWithConsonants" classname="Assignment.Assignment_Testcase" runstate="Runnable" seed="191311393" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.012616" asserts="0">
+            <properties>
+              <property name="Category" value="Midterm" />
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+            <output><![CDATA[5
+]]></output>
+          </test-case>
+          <test-case id="1007" name="Test_AS01_CountVowels_NoVowels" fullname="Assignment.Assignment_Testcase.Test_AS01_CountVowels_NoVowels" methodname="Test_AS01_CountVowels_NoVowels" classname="Assignment.Assignment_Testcase" runstate="Runnable" seed="1486222528" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.012797" asserts="0">
+            <properties>
+              <property name="Category" value="Midterm" />
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+            <output><![CDATA[0
+]]></output>
+          </test-case>
+          <test-case id="1004" name="Test_AS01_CountVowels_SingleVowel" fullname="Assignment.Assignment_Testcase.Test_AS01_CountVowels_SingleVowel" methodname="Test_AS01_CountVowels_SingleVowel" classname="Assignment.Assignment_Testcase" runstate="Runnable" seed="1380557584" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.012236" asserts="0">
+            <properties>
+              <property name="Category" value="Midterm" />
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+            <output><![CDATA[1
+]]></output>
+          </test-case>
+          <test-case id="1012" name="Test_AS02_WebBrowserNavigation_BackFromStart" fullname="Assignment.Assignment_Testcase.Test_AS02_WebBrowserNavigation_BackFromStart" methodname="Test_AS02_WebBrowserNavigation_BackFromStart" classname="Assignment.Assignment_Testcase" runstate="Runnable" seed="1984358362" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.012899" asserts="0">
+            <properties>
+              <property name="Category" value="Midterm" />
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+            <output><![CDATA[
+]]></output>
+          </test-case>
+          <test-case id="1015" name="Test_AS02_WebBrowserNavigation_ComplexNavigation" fullname="Assignment.Assignment_Testcase.Test_AS02_WebBrowserNavigation_ComplexNavigation" methodname="Test_AS02_WebBrowserNavigation_ComplexNavigation" classname="Assignment.Assignment_Testcase" runstate="Runnable" seed="1552554808" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.012693" asserts="0">
+            <properties>
+              <property name="Category" value="Midterm" />
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+            <output><![CDATA[youtube.com
+]]></output>
+          </test-case>
+          <test-case id="1013" name="Test_AS02_WebBrowserNavigation_ForwardAfterBack" fullname="Assignment.Assignment_Testcase.Test_AS02_WebBrowserNavigation_ForwardAfterBack" methodname="Test_AS02_WebBrowserNavigation_ForwardAfterBack" classname="Assignment.Assignment_Testcase" runstate="Runnable" seed="2092941223" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.015572" asserts="0">
+            <properties>
+              <property name="Category" value="Midterm" />
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+            <output><![CDATA[youtube.com
+]]></output>
+          </test-case>
+          <test-case id="1014" name="Test_AS02_WebBrowserNavigation_ForwardWithoutBack" fullname="Assignment.Assignment_Testcase.Test_AS02_WebBrowserNavigation_ForwardWithoutBack" methodname="Test_AS02_WebBrowserNavigation_ForwardWithoutBack" classname="Assignment.Assignment_Testcase" runstate="Runnable" seed="226395398" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.015904" asserts="0">
+            <properties>
+              <property name="Category" value="Midterm" />
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+            <output><![CDATA[google.com
+]]></output>
+          </test-case>
+          <test-case id="1010" name="Test_AS02_WebBrowserNavigation_OpenAndCurrent" fullname="Assignment.Assignment_Testcase.Test_AS02_WebBrowserNavigation_OpenAndCurrent" methodname="Test_AS02_WebBrowserNavigation_OpenAndCurrent" classname="Assignment.Assignment_Testcase" runstate="Runnable" seed="1211758426" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.012358" asserts="0">
+            <properties>
+              <property name="Category" value="Midterm" />
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+            <output><![CDATA[google.com
+]]></output>
+          </test-case>
+          <test-case id="1011" name="Test_AS02_WebBrowserNavigation_OpenMultipleAndBack" fullname="Assignment.Assignment_Testcase.Test_AS02_WebBrowserNavigation_OpenMultipleAndBack" methodname="Test_AS02_WebBrowserNavigation_OpenMultipleAndBack" classname="Assignment.Assignment_Testcase" runstate="Runnable" seed="669786458" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.012210" asserts="0">
+            <properties>
+              <property name="Category" value="Midterm" />
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+            <output><![CDATA[google.com
+]]></output>
+          </test-case>
+          <test-case id="1009" name="Test_AS02_WebBrowserNavigation_OpenSingleUrl" fullname="Assignment.Assignment_Testcase.Test_AS02_WebBrowserNavigation_OpenSingleUrl" methodname="Test_AS02_WebBrowserNavigation_OpenSingleUrl" classname="Assignment.Assignment_Testcase" runstate="Runnable" seed="834747450" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.012204" asserts="0">
+            <properties>
+              <property name="Category" value="Midterm" />
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+            <output><![CDATA[google.com
+]]></output>
+          </test-case>
+          <test-case id="1020" name="Test_AS03_CountTotalNode_CompleteTree" fullname="Assignment.Assignment_Testcase.Test_AS03_CountTotalNode_CompleteTree" methodname="Test_AS03_CountTotalNode_CompleteTree" classname="Assignment.Assignment_Testcase" runstate="Runnable" seed="1654008325" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.001573" asserts="0">
+            <properties>
+              <property name="Category" value="Midterm" />
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1023" name="Test_AS03_CountTotalNode_ComplexTree" fullname="Assignment.Assignment_Testcase.Test_AS03_CountTotalNode_ComplexTree" methodname="Test_AS03_CountTotalNode_ComplexTree" classname="Assignment.Assignment_Testcase" runstate="Runnable" seed="1271395516" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.000471" asserts="0">
+            <properties>
+              <property name="Category" value="Midterm" />
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1021" name="Test_AS03_CountTotalNode_LeftSkewedTree" fullname="Assignment.Assignment_Testcase.Test_AS03_CountTotalNode_LeftSkewedTree" methodname="Test_AS03_CountTotalNode_LeftSkewedTree" classname="Assignment.Assignment_Testcase" runstate="Runnable" seed="1054316487" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.000399" asserts="0">
+            <properties>
+              <property name="Category" value="Midterm" />
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1016" name="Test_AS03_CountTotalNode_NullRoot" fullname="Assignment.Assignment_Testcase.Test_AS03_CountTotalNode_NullRoot" methodname="Test_AS03_CountTotalNode_NullRoot" classname="Assignment.Assignment_Testcase" runstate="Runnable" seed="419286923" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.000369" asserts="0">
+            <properties>
+              <property name="Category" value="Midterm" />
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1022" name="Test_AS03_CountTotalNode_RightSkewedTree" fullname="Assignment.Assignment_Testcase.Test_AS03_CountTotalNode_RightSkewedTree" methodname="Test_AS03_CountTotalNode_RightSkewedTree" classname="Assignment.Assignment_Testcase" runstate="Runnable" seed="46237841" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.000397" asserts="0">
+            <properties>
+              <property name="Category" value="Midterm" />
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1017" name="Test_AS03_CountTotalNode_SingleNode" fullname="Assignment.Assignment_Testcase.Test_AS03_CountTotalNode_SingleNode" methodname="Test_AS03_CountTotalNode_SingleNode" classname="Assignment.Assignment_Testcase" runstate="Runnable" seed="1430627279" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.000373" asserts="0">
+            <properties>
+              <property name="Category" value="Midterm" />
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1019" name="Test_AS03_CountTotalNode_ThreeNodes" fullname="Assignment.Assignment_Testcase.Test_AS03_CountTotalNode_ThreeNodes" methodname="Test_AS03_CountTotalNode_ThreeNodes" classname="Assignment.Assignment_Testcase" runstate="Runnable" seed="64874269" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.000402" asserts="0">
+            <properties>
+              <property name="Category" value="Midterm" />
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+          <test-case id="1018" name="Test_AS03_CountTotalNode_TwoNodes" fullname="Assignment.Assignment_Testcase.Test_AS03_CountTotalNode_TwoNodes" methodname="Test_AS03_CountTotalNode_TwoNodes" classname="Assignment.Assignment_Testcase" runstate="Runnable" seed="575706127" result="Passed" start-time="2026-03-25 03:25:02Z" end-time="2026-03-25 03:25:02Z" duration="0.000384" asserts="0">
+            <properties>
+              <property name="Category" value="Midterm" />
+              <property name="retryIteration" value="0" />
+              <property name="repeatIteration" value="0" />
+            </properties>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -67,7 +67,7 @@ namespace Assignment
             {
                 foreach (string alphabet in alphabets)
                 {
-                    if (alphabet == "a" || alphabet == "e" || alphabet == "i" || alphabet == "o" || alphabet == "u")
+                    if (alphabet == "a"||alphabet == "e"||alphabet == "i"||alphabet == "o" || alphabet == "u")
                     {
                         count++;
                     }
@@ -108,8 +108,14 @@ namespace Assignment
 
         public int AS03_CountTotalNode(Node root)
         {
-            // AS03: Your code here ...
-            throw new NotImplementedException();
+             {
+            if (root == null)
+            {
+             return 0;
+            }
+
+            return 1 + AS03_CountTotalNode(root.left) + AS03_CountTotalNode(root.right);
+        }
         }
 
         #endregion
