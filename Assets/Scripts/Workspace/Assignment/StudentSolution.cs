@@ -37,7 +37,7 @@ namespace Assignment
 
         public void Forward()
         {
-             if (forwardStack.Count == 0)
+             if (forwardStack.Count ==0)
             {
                 return;
             }
@@ -47,7 +47,7 @@ namespace Assignment
 
         public string Current()
         {
-            if (backStack.Count == 0)
+            if (backStack.Count  == 0)
             {
                 return "";
             }
@@ -67,7 +67,7 @@ namespace Assignment
             {
                 foreach (string alphabet in alphabets)
                 {
-                    if (alphabet == "a"||alphabet == "e"||alphabet == "i"||alphabet == "o" || alphabet == "u")
+                    if (alphabet =="a"||alphabet =="e"||alphabet =="i"||alphabet =="o" || alphabet =="u")
                     {
                         count++;
                     }
