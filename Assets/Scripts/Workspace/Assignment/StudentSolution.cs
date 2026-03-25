@@ -11,26 +11,48 @@ namespace Assignment
 
         public void Open(string url)
         {
-            // AS02: Your code here ...
-            throw new NotImplementedException();
+           if (string.IsNullOrEmpty(url))
+            {
+                return;
+            }
+
+            if (backStack.Count > 0)
+            {
+                backStack.Push(backStack.Peek());
+            }
+
+            backStack.Push(url);
+            forwardStack.Clear();
         }
 
         public void Back()
         {
-            // AS02: Your code here ...
-            throw new NotImplementedException();
+             if (backStack.Count <= 1)
+            {
+                return;
+            }
+
+            forwardStack.Push(backStack.Pop());
         }
 
         public void Forward()
         {
-            // AS02: Your code here ...
-            throw new NotImplementedException();
+             if (forwardStack.Count == 0)
+            {
+                return;
+            }
+
+            backStack.Push(forwardStack.Pop());
         }
 
         public string Current()
         {
-            // AS02: Your code here ...
-            throw new NotImplementedException();
+            if (backStack.Count == 0)
+            {
+                return "";
+            }
+
+            return backStack.Peek();
         }
     }
 
@@ -40,8 +62,18 @@ namespace Assignment
 
         public void AS01_CountVowels(LinkedList<string> alphabets)
         {
-            // AS01: Your code here ...
-            throw new NotImplementedException();
+            int count = 0;
+            if (alphabets != null)
+            {
+                foreach (string alphabet in alphabets)
+                {
+                    if (alphabet == "a" || alphabet == "e" || alphabet == "i" || alphabet == "o" || alphabet == "u")
+                    {
+                        count++;
+                    }
+                }
+            }
+            Debug.Log(count);
         }
 
         public void AS02_WebBrowserNavigation(string actions)
